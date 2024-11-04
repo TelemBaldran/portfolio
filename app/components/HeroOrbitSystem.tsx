@@ -6,10 +6,10 @@ export const HeroOrbit = ({
   rotation,
 }: PropsWithChildren<{ size: number; rotation: number }>) => {
   return (
-    // centers the div's center to the parents center
+    // centers the div's center to the parents center, size = distance from center
     <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
       <div
-        className=""
+        className="flex items-start justify-start"
         style={{
           transform: `rotate(${rotation}deg)`,
           height: `${size}px`,

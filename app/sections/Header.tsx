@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <div className="flex fixed justify-center items-center top-3 w-full">
+    <div className="flex fixed justify-center items-center top-3 w-full z-10">
       <nav className="flex gap-1 p-0.5 border-white/15 bg-white/10 border-2 backdrop-blur rounded-full">
         <a href="#" className="nav-item">
           Home

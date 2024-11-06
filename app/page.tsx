@@ -1,13 +1,15 @@
 import Header from "./sections/Header";
-import Hero from "./sections/Hero";
-import Projects from "./sections/Projects";
+import HeroSection from "./sections/Hero";
+import ProjectsSection from "./sections/Projects";
+import BannerSection from "./sections/Banner";
 
 function main() {
   return (
     <div>
       <Header />
-      <Hero />
-      <Projects />
+      <HeroSection />
+      <ProjectsSection />
+      <BannerSection />
     </div>
   );
 }

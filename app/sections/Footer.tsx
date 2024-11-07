@@ -1,5 +1,5 @@
-function Home() {
-  return <div></div>;
+function Footer() {
+  return <div>Footer</div>;
 }
 
-export default Home;
+export default Footer;

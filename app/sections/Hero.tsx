@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import { HeroOrbit } from "../components/HeroOrbitSystem";
 
-function Hero() {
+function HeroSection() {
   return (
     <div className="py-32 md:py-48 lg:py-60 relative z-0 overflow-clip">
       <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]">
@@ -92,4 +92,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default HeroSection;
